@@ -1,0 +1,55 @@
+
+yalla@Praneeth MINGW64 /d/my project
+$ git --version
+git version 2.51.0.windows.1
+
+yalla@Praneeth MINGW64 /d/my project
+$ git init -b main
+Initialized empty Git repository in D:/my project/.git/
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        content.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git add content.txt
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   content.txt
+
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git config --global user.name "Praneeth"
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git config --global user.email "yallapraneeth987@gmail.com"
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git commit -m "first commit and edited two line"
+[main (root-commit) 99fded3] first commit and edited two line
+ 1 file changed, 2 insertions(+)
+ create mode 100644 content.txt
+
+yalla@Praneeth MINGW64 /d/my project (main)
+$ git log
+commit 99fded30a03da74a3326b69a8e7cd75cd5fb2f68 (HEAD -> main)
+Author: Praneeth <yallapraneeth987@gmail.com>
+Date:   Mon Aug 25 22:18:46 2025 +0530
+
+    first commit and edited two line
+
